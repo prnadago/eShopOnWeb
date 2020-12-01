@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
+
 namespace Microsoft.eShopWeb.ApplicationCore.Helpers.Query
 {
     public class IncludeAggregator<TEntity>
