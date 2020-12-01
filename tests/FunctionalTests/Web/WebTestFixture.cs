@@ -17,6 +17,7 @@ namespace Microsoft.eShopWeb.FunctionalTests.Web
         {
             builder.UseEnvironment("Testing");
 
+
             builder.ConfigureServices(services =>
             {
                  services.AddEntityFrameworkInMemoryDatabase();
